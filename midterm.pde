@@ -56,20 +56,29 @@ void keyPressed(){
   
   //test switcher
   //if(keyCode == UP || keyCode == DOWN){
-    if(keyCode == UP){
+    if(key == '1'){
           op = 0;
     }
-    if(keyCode == DOWN){
+    if(key == '2'){
           op = 1;
     }
-    if(keyCode == SHIFT){
+    if(key == '3'){
           op = 2;
     }
-    if(keyCode == ALT){
+    if(key == '4'){
           op = 3;
     }
-    if(keyCode == CONTROL){
+    if(key == '5'){
           op = 4;
+    }
+    if(key == '6'){
+          op = 5;
+    }
+    if(key == '7'){
+          op = 6;
+    }
+    if(key == '8'){
+          op = 7;
     }
     
    // }   
